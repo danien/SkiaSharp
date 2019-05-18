@@ -20,7 +20,7 @@ namespace SkiaSharpSample
 			skiaView.PaintSurface += OnPaintSurface;
 		}
 
-		private void OnPaintSurface(object sender, SKPaintSurfaceEventArgs e)
+		private void OnPaintSurface(object sender, SKPaintGLSurfaceEventArgs e)
 		{
 			// the the canvas and properties
 			var canvas = e.Surface.Canvas;

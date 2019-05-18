@@ -13,7 +13,7 @@ namespace SkiaSharpSample
 	partial class ViewController
 	{
 		[Outlet]
-		SkiaSharp.Views.Mac.SKCanvasView skiaView { get; set; }
+		SkiaSharp.Views.Mac.SKGLView skiaView { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
